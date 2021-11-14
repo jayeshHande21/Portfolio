@@ -41,3 +41,11 @@ hr {
     text-shadow: yellow;
     
 }
+.bullet{
+    text-decoration: none;
+    list-style: none;
+}
+.inline{
+    display: inline;
+    padding:0rem 1rem;
+}

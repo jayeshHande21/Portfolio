@@ -20,7 +20,7 @@ body{
   
 }
 hr {
-    margin:2rem 0rem;
+    margin:1rem 0rem;
 }
 .primary-link{
     padding-left:1rem;
@@ -47,5 +47,28 @@ hr {
 }
 .inline{
     display: inline;
-    padding:0rem 1rem;
+    padding:0rem 1rem;  
+}
+.navigation{
+    background-color:blue;
+    padding-top:1rem;
+    padding-bottom: 1rem;
+    border-radius: 1rem;
+}
+.navigation .bot{
+    text-align:center;
+}
+.navigation .list{
+    color:white;
+    display:inline;
+ 
+    
+}
+.navigation .rev{
+    color:white;
+    text-align:center
+}
+.nevigation.link-active{
+    font-weight: bold;
+    font-size: bold;
 }

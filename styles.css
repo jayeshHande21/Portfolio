@@ -2,7 +2,7 @@
 
 .root {
     --primary-color: #a3a3a3;
-    --off-white:#d6d3d1;
+    --off-white: #d6d3d1;
 }
 
 body {
@@ -106,16 +106,40 @@ hr {
     font-size: 2rem;
     color: var(--primary-color);
 }
-.section{
-    padding:2rem;
+
+.section {
+    padding: 2rem;
 }
+
 .section h1 {
     text-align: center;
-  
+
 }
-.section p{
-    text-align:center;
+
+.section p {
+    text-align: center;
 }
+
 .wp {
-   background-color:#d6d3d1;
+    background-color: #d6d3d1;
+}
+
+
+.bracket {
+    text-align: center;
+    padding-bottom: 2rem;
+}
+
+.jj {
+    display: inline;
+    padding: 1rem;
+    padding-bottom: 2rem;
+    font-size: large;
+   
+
+
+}
+.container-type{
+    background-color:wheat
+    
 }

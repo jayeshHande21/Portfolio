@@ -17,6 +17,10 @@ body{
 .links{
     text-decoration:none;
     padding:0.5rem;
+  
+}
+hr {
+    margin:2rem 0rem;
 }
 .primary-link{
     padding-left:1rem;

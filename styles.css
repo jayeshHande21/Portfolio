@@ -28,6 +28,7 @@ body {
     text-decoration: none;
     padding: 0.5rem;
     color:white;
+   
 
 }
 
@@ -43,7 +44,9 @@ hr {
     border-radius: 0.5rem;
     border: 1px solid black;
     text-shadow: yellow;
+   
 }
+
 
 .secondary-link {
 
@@ -53,6 +56,7 @@ hr {
     color: black;
     border-radius: 0.5rem;
     text-shadow: yellow;
+    text-align: center;
 
 }
 
@@ -129,7 +133,7 @@ hr {
 }
 
 .footer{
-    background-color: blue;
+    background-color: rgb(156, 156, 247);
    padding-bottom:2rem;
     color:white;
     text-align: center;
@@ -138,10 +142,15 @@ hr {
     
 }
 
+.footer.pp{
+    font-size: larger;
+    font-weight: bolder;
+    
 }
 
 .header{
     text-align: center;
-    font-size: larger;
+    font-size: larger
+    ;
    
 }

@@ -8,6 +8,8 @@
 body {
 
     font-family: 'PT Sans', sans-serif;
+    margin:0px;
+    padding:0px;
 }
 
 .container {
@@ -25,6 +27,7 @@ body {
 .links {
     text-decoration: none;
     padding: 0.5rem;
+    color:white;
 
 }
 
@@ -61,6 +64,7 @@ hr {
 .inline {
     display: inline;
     padding: 0rem 1rem;
+   
 }
 
 .navigation {
@@ -124,22 +128,20 @@ hr {
     background-color: #d6d3d1;
 }
 
-
-.bracket {
+.footer{
+    background-color: blue;
+   padding-bottom:2rem;
+    color:white;
     text-align: center;
-    padding-bottom: 2rem;
-}
-
-.jj {
-    display: inline;
-    padding: 1rem;
-    padding-bottom: 2rem;
-    font-size: large;
+    border-top-right-radius: 1rem;;
    
-
+    
+}
 
 }
-.container-type{
-    background-color:wheat
-    
+
+.header{
+    text-align: center;
+    font-size: larger;
+   
 }

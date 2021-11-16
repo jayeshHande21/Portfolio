@@ -53,7 +53,7 @@ hr {
     padding-left: 1rem;
     padding-right: 1rem;
     border: 1px solid black;
-    color: black;
+    background-color: blue;
     border-radius: 0.5rem;
     text-shadow: yellow;
     text-align: center;
@@ -145,12 +145,14 @@ hr {
 .footer.pp{
     font-size: larger;
     font-weight: bolder;
+    color:black;
     
 }
 
 .header{
     text-align: center;
-    font-size: larger
-    ;
-   
+    font-size: larger;   
+}
+.inline.links{
+    color:blue;
 }

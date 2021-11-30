@@ -91,7 +91,8 @@ hr {
 
 .navigation .rev {
     color: white;
-    text-align: center
+    float:left;
+    font-size: larger;
 }
 
 .nevigation.link-active {

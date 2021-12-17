@@ -20,8 +20,9 @@ body {
 
 .container-centered {
 
-    max-width: 600px;
+    max-width: 650px;
     margin: auto;
+    background-color: rgba(0, 0, 0, 0.02);
 }
 
 .links {

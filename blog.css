@@ -1,0 +1,35 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+h1{
+   text-align: center;
+}
+/* section{
+    margin-left: 50px;
+} */
+body{
+    padding: 2rem;
+    background-color: rgb(252, 252, 252);
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+
+}
+.counter{
+    margin: auto;
+    padding: 2rem;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 0 1rem #13010f80
+}
+#more{
+    display: none;
+}
+#btn{
+    color:red;
+    
+    
+}

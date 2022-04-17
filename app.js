@@ -4,32 +4,25 @@ const more = document.querySelector("#more");
 
 const dots = document.querySelector("#dots");
 var i = 0;
-function ReadMore(){
-    // console.log("clicked Me")
-    if(!i){
-        
-        dots.style.display = "none";
+function ReadMore() {
+  // console.log("clicked Me")
+  if (!i) {
+    dots.style.display = "none";
 
-        more.style.display = "inline";
+    more.style.display = "inline";
 
-        button.innerText = "Read Less";
+    button.innerText = "Read Less";
 
-        i = 1;
-  
-        
+    i = 1;
+  } else {
+    dots.style.display = "inline";
 
-    }else{
-        dots.style.display = "inline";
+    button.innerText = "Read More";
 
-        button.innerText = "Read More";
+    more.style.display = "none";
 
-        more.style.display = "none";
-
-        i = 0;
-      
-    }
-
+    i = 0;
+  }
 }
 
-
-button.addEventListener("click" , ReadMore);
+button.addEventListener("click", ReadMore);

@@ -49,6 +49,7 @@ h3 {
 .blog_container {
   max-width: 750px;
   margin: auto;
+  margin-bottom: 10px;
   background-color: rgba(0, 0, 0, 0.02);
   padding: 30px;
   border-radius: 2rem;
@@ -81,4 +82,11 @@ h3 {
 h2 {
   max-width: 750px;
   margin: auto;
+}
+.footerr {
+  background-color: rgb(255, 187, 0);
+  padding-bottom: 2rem;
+  color: white;
+  text-align: center;
+  border-top-right-radius: 1rem;
 }

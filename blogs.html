@@ -1,119 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Blogs</title>
-    <link href="blog.css" rel="stylesheet">
-    <link rel="stylesheet" href="styles.css">
-</head>
+    <link href="blog.css" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
 
-<body>
-    <nav class="navigation container">
-        <div class="rev"><b>IAmDeveloper</b></div>
-        <ul class="bot">
-
-            <li class="inline">
-                <a class="list-active" href="/">Home</a>
-            </li>
-            <li class="inline">
-                <a class="list" href="projects.html">Projects</a>
-            </li>
-            <li class="inline">
-                <a class="list" href="blogs.html">Blogs</a>
-            </li>
-        </ul>
+  <body>
+    <nav class="blog_nevigation">
+      <div class="rev"><b>IAmDeveloper</b></div>
+      <ul class="bot">
+        <li class="inline">
+          <a class="list-active" href="/">Home</a>
+        </li>
+        <li class="inline">
+          <a class="list" href="projects.html">Projects</a>
+        </li>
+        <li class="inline">
+          <a class="list" href="blogs.html">Blogs</a>
+        </li>
+      </ul>
     </nav>
     <header class="hero">
-
+      <img class="hero-img" src="images/jayu.svg" />
+      <h1 class="hero-heading">
+        <span style="color: rgb(255, 187, 0)">Jayesh Hande's</span>
+        <span style="color: brown">Blogs</span>
+      </h1>
     </header>
+    <h2>
+      Blog 1 for <span style="color: brown">Mark15</span> Javascript DOM
+      Manipulation
+    </h2>
+    <p class="blog_container">
+      Javascript is the most popular programming language in the world and that
+      makes it a programmer’s great choice. Once you learnt Javascript, it helps
+      you developing great front-end as well as back-end softwares using
+      different Javascript based frameworks like jQuery, Node.JS etc.
+      <br /><br />
 
-
-    <ul class="bullet">
-        <div class="container-centered">
-            <li>
-
-
-                <div class="container">
-                    <div class="counter">
-                        <pre>
-                    <h1>What is DOM?</h1> 
-               <section>    The DOM is a W3C (World Wide Web Consortium) standard.
-                "The W3C Document Object Model (DOM) is a platform and language-neutral <br>interface that allows programs    and scripts to dynamically access and update the content,structure,<br> and style of a document."
-                
-                The W3C DOM standard is separated into 3 different parts:
-                ⦁	Core DOM - standard model for all document types
-                ⦁	XML DOM - standard model for XML documents
-                ⦁	HTML DOM - standard model for HTML documents<span id="dots"></span>.....  </section>
-                
-                 <span id="more"><h3>   JavaScript - HTML DOM Methods:</h3>
-                   HTML DOM methods are actions you can perform (on HTML Elements).
-                   HTML DOM properties are values (of HTML Elements) that you can set or change.
-                   The DOM Programming Interface
-                   The HTML DOM can be accessed with JavaScript (and with other programming languages).
-                   In the DOM, all HTML elements are defined as objects.
-                   The programming interface is the properties and methods of each object.
-                   A property is a value that you can get or set (like changing the content of an HTML element).
-                   A method is an action you can do (like add or delete an HTML element).
-                
-               <h3>   The getElementById Method :</h3> 
-                The most common way to access an HTML element is to use the id of the element.
-                The innerHTML Property :
-                The easiest way to get the content of an element is by using the innerHTML property.
-                The innerHTML property is useful for getting or replacing the content of HTML elements.
-                
-                  <h3>  The HTML DOM Document Object:</h3> 
-                The document object represents your web page.
-                If you want to access any element in an HTML page, you always start with accessing the document object.
-                Below are some examples of how you can use the document object to access and manipulate HTML.
-            
-                          Methods                                                Description
-                document.getElementById(id)	                             Find an element by element id
-                document.getElementsByTagName(name)	                     Find elements by tag name
-                document.getElementsByClassName(name)	                   Find elements by class name
-                
-                   <h3>   Changing HTML Elements:</h3> 
-            
-                                  Property	                                 Description
-                element.innerHTML =  new html content	             Change the inner HTML of anelement
-                element.attribute = new value                        Change the attribute value of an HTML element
-                element.style.property = new style	                 Change the style of an HTML element
-            
-                                  Method	                                  Description
-                element.setAttribute(attribute, value)	             Change the attribute value of an HTML element
-                
-              <h3>  Adding and Deleting Elements:</h3>
-              
-                                 Method	                                  Description
-                ⦁	document.createElement(element)         	     Create an HTML element
-                ⦁	document.removeChild(element)	                 Remove an HTML element
-                ⦁	document.appendChild(element)	                 Add an HTML element
-                ⦁	document.replaceChild(new, old)	                 Replace an HTML element
-                ⦁	document.write(text)                     	     Write into the HTML output stream 
-               
-             </span> 
-             <button type = "button" id="btn">Read More</button>
-               </pre>
-
-                    </div>
-                </div>
-                <img class="hero-img" src="images/start.svg" /> </p>
-            </li><br><br><br>
-            <div class="container-centered">
-                <li>
-                    <h1>Somewhere To Go....</h1>
-                    <small>17th_November_2021</small>
-                    <p>Myself Jayesh Vijay Hande.Just searching a random stuff related to coading on youtube a couple of
-                        month ago I rached to Mentor Tanay's youtube channel.From that day until now my projects and all
-                        teaching are under his mentorship and it will goes on and onnn....
-                        <img class="hero-img" src="images/start.svg" /> </p>
-                </li>
-            </div>
-
-    </ul>
-    <script src="app.js"></script>
-</body>
-
+      <span id="read">Read More</span>
+    </p>
+    <script src="script.js"></script>
+  </body>
 </html>

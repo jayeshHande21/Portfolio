@@ -35,13 +35,13 @@ h3 {
 
   margin: auto;
 }
-.blog_container #read {
+.blog_container .readAll {
   color: rgb(101, 50, 38);
   border: 3px solid rgb(255, 187, 0);
   width: 80px;
   margin: auto;
   border-radius: 0.2rem;
-  padding: 0.5rem;
+  padding: 0.3rem;
   font-size: 18;
   cursor: pointer;
   font-weight: bold;
@@ -71,7 +71,7 @@ h3 {
 
 .blog_nevigation .rev {
   color: white;
-
+  margin-left: 10px;
   font-size: larger;
   padding-bottom: 1rem;
 }

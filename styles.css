@@ -34,7 +34,8 @@ body {
 .links {
   text-decoration: none;
   padding: 0.5rem;
-  color: white;
+  color: purple;
+  font-size: large;
 }
 
 hr {
@@ -142,7 +143,8 @@ hr {
 }
 
 #pp {
-  font-size: 30px;
+  margin-bottom: 15px;
+  font-size: 25px;
   font-weight: bolder;
   color: white;
   text-align: center;

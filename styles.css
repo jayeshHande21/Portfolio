@@ -74,7 +74,7 @@ hr {
 .navigation {
   background-color: rgb(255, 187, 0);
   padding-top: 1rem;
-  padding-bottom: 1rem;
+  padding-bottom: 0.5rem;
   border-radius: 1rem;
 }
 
@@ -91,8 +91,9 @@ hr {
 
 .navigation .rev {
   color: white;
-  float: left;
+  margin-left: 10px;
   font-size: larger;
+  padding-bottom: 1rem;
 }
 
 .nevigation.link-active {

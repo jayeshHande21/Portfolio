@@ -158,3 +158,6 @@ hr {
   font-weight: bold;
   font-size: bold;
 }
+.list {
+  text-decoration: none;
+}

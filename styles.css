@@ -71,36 +71,6 @@ hr {
   padding: 0rem 1rem;
 }
 
-.navigation {
-  background-color: rgb(255, 187, 0);
-  padding-top: 1rem;
-  padding-bottom: 0.5rem;
-  border-radius: 1rem;
-}
-
-.navigation .bot {
-  text-align: center;
-}
-
-.navigation .list {
-  color: white;
-  display: inline;
-  font-size: large;
-  text-decoration: none;
-}
-
-.navigation .rev {
-  color: white;
-  margin-left: 10px;
-  font-size: larger;
-  padding-bottom: 1rem;
-}
-
-.nevigation.link-active {
-  font-weight: bold;
-  font-size: bold;
-}
-
 .hero {
   padding: 2rem;
 }
@@ -157,4 +127,34 @@ hr {
 }
 .inline.links {
   color: blue;
+  text-decoration: none;
+}
+.navigation {
+  background-color: rgb(255, 187, 0);
+  padding-top: 1rem;
+  padding-bottom: 0.5rem;
+  border-radius: 1rem;
+}
+
+.navigation .bot {
+  text-align: center;
+}
+
+.navigation .list {
+  color: white;
+  display: inline;
+  font-size: large;
+  text-decoration: none;
+}
+
+.navigation .rev {
+  color: white;
+  margin-left: 10px;
+  font-size: larger;
+  padding-bottom: 1rem;
+}
+
+.nevigation.link-active {
+  font-weight: bold;
+  font-size: bold;
 }

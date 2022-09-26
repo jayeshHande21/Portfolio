@@ -46,6 +46,11 @@ h3 {
   cursor: pointer;
   font-weight: bold;
 }
+
+h2 {
+  max-width: 750px;
+  margin: auto;
+}
 .blog_container {
   max-width: 750px;
   margin: auto;
@@ -57,6 +62,7 @@ h3 {
   margin-top: 2rem;
 }
 .blog_nevigation {
+  text-decoration: none;
   background-color: rgb(255, 187, 0);
   padding-top: 1rem;
   padding-bottom: 1rem;
@@ -80,7 +86,13 @@ h3 {
 .blog_nevigation .bot {
   text-align: center;
 }
-h2 {
-  max-width: 750px;
-  margin: auto;
+.blog_nevigation.link-active {
+  font-weight: bold;
+  font-size: bold;
+}
+.links {
+  text-decoration: none;
+  padding: 0.5rem;
+  color: purple;
+  font-size: large;
 }
